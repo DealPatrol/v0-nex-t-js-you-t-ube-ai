@@ -156,7 +156,7 @@ CRITICAL REQUIREMENTS:
 
 Remember: Return ONLY the JSON object, no markdown code blocks or explanations.`
 
-      console.log('[API] Calling OpenAI API with model gpt-4o-mini')
+      console.log('[API] Calling OpenAI API with model gpt-4-turbo-preview')
       const openaiResponse = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
@@ -164,7 +164,7 @@ Remember: Return ONLY the JSON object, no markdown code blocks or explanations.`
           Authorization: `Bearer ${openaiKey}`,
         },
         body: JSON.stringify({
-          model: 'gpt-4o-mini',
+          model: 'gpt-4-turbo-preview',
           messages: [
             { role: 'system', content: systemPrompt },
             { role: 'user', content: userPrompt },
