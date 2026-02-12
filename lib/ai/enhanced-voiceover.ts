@@ -53,7 +53,7 @@ export const VOICE_LIBRARY: VoiceProfile[] = [
     use_case: ['storytelling', 'entertainment', 'tutorial'],
   },
   {
-    id: 'VR6AewLTrD7X1z75XrXQD',
+    id: 'ErXwobaYiN019PkySvjV',
     name: 'Antoni',
     language: 'en',
     gender: 'male',
